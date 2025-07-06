@@ -20,19 +20,19 @@
 	<text>
 		<body>
 			<div type="poem" subtype="terzarima">
-				<head type="poem">Political Meeting (For <persName cert="medium" ref="42172560">Camillien Houde</persName>)</head>
-				<docAuthor>by A.M. Klein</docAuthor>
+				<head type="poem">Political Meeting (For <persName cert="medium" ref="42172560"><persName key="Houde, Camillien, 1889-1958" ref="http://viaf.org/viaf/42172560" ana="webannotation:http://temp.lincsproject.ca/atgXk5OWlVS">Camillien Houde</persName></persName>)</head>
+				<docAuthor>by <persName key="Weaver, A.M." ref="http://vocab.getty.edu/ulan/500434002" ana="webannotation:http://temp.lincsproject.ca/y5zNeq8QADC">A.M. Klein</persName></docAuthor>
 				<lg>
 					<l>On the school platform, draping the folding seats,</l><l>they wait the chairman's praise and glass of water.</l><l>Upon the wall the agonized Y initials their faith.</l>
 				</lg>
 				<lg>
-					<l>Here all are laic; the skirted brothers have gone.</l><l>Still, their equivocal absence is felt, like a breeze</l><l>that gives curtains the sounds of surplices.</l>
+					<l>Here all are <rs key="laic" ref="http://www.wikidata.org/entity/Q726710" ana="webannotation:http://temp.lincsproject.ca/czuGEqH9tRr">laic</rs>; the skirted brothers have gone.</l><l>Still, their equivocal absence is felt, like a breeze</l><l>that gives curtains the sounds of surplices.</l>
 				</lg>
 				<lg>
 					<l>The hall is yellow with light, and jocular;</l><l>suddenly some one lets loose upon the air</l><l>the ritual bird which the crowd in snares of singing</l>
 				</lg>
 				<lg>
-					<l>catches and plucks, throat, wings, and little limbs.</l><l>Fall the feathers of sound, like <foreign>alouette</foreign>'s.</l><l>The chairman, now, is charming, full of asides and wit,</l>
+					<l>catches and plucks, throat, wings, and little limbs.</l><l>Fall the feathers of sound, like <persName key="Barack Obama" ref="http://dbpedia.org/resource/Barack_Obama" ana="webannotation:http://temp.lincsproject.ca/BYicBO81BO2"><foreign>alouette</foreign>'s</persName>.</l><l>The chairman, now, is charming, full of asides and wit,</l>
 				</lg>
 				<lg>
 					<l>building his orators, and chipping off</l><l>the heckling gargoyles popping in the hall.</l><l>(Outside, in the dark, the street is body-tall,</l>
@@ -54,11 +54,11 @@
 					<l>in the third person, slings slang, and winks with folklore;</l><l>and knows now that he has them, kith and kin.</l><l>Calmly, therefore, he begins to speak of war,</l>
 				</lg>
 				<lg>
-					<l>praises the virtue of being <foreign>Canadien</foreign>,</l><l>of being at peace, of faith, of family,</l><l>and suddenly his other voice: <emph>Where are your sons?</emph>
+					<l>praises the virtue of being <foreign><rs key="Montreal Canadiens" ref="http://dbpedia.org/resource/Montreal_Canadiens" ana="webannotation:http://temp.lincsproject.ca/Gz2TdwBlvMj">Canadien</rs></foreign>,</l><l>of being at peace, of faith, of family,</l><l>and suddenly his other voice: <emph>Where are your sons?</emph>
 					</l>
 				</lg>
 				<lg>
-					<l>He is tearful, choking tears; but not he</l><l>would blame the clever English; in their place</l><l>he'd do the same; maybe.</l>
+					<l>He is tearful, choking tears; but not he</l><l>would blame the clever <rs key="Chekhov, Anton Pavlovich, 1860-1904. | Short stories. Selections. | English" ref="http://viaf.org/viaf/176621117" ana="webannotation:http://temp.lincsproject.ca/tTNfRsIAqyb">English</rs>; in their place</l><l>he'd do the same; maybe.</l>
 				</lg>
 				<lg>
 					<l part="I">Where <emph>are</emph> your sons?</l><l part="F">The whole street wears one face,</l><l>shadowed and grim; and in the darkness rises</l><l>the body-odour of race.</l>
@@ -66,4 +66,502 @@
 			</div>
 		</body>
 	</text>
-</TEI>
+<standOff type="annotation"><xenoData><rdf:RDF><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/atgXk5OWlVS"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/atgXk5OWlVS",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-06T00:04:21.270Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/QuDdals98vT",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/QuDdals98vT/selector/textPosition/hitGd0XBPdr",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 35,
+                "end": 50,
+                "refinedBy": {
+                    "id": "/target/QuDdals98vT/selector/textQuote/ZvZOq8R8IVh",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Camillien Houde",
+                    "prefix": "\n\t\t\n\t\t\t\n\t\t\t\tPolitical Meeting (For",
+                    "suffix": "\n\t\t\t\tby A"
+                }
+            },
+            {
+                "id": "/target/QuDdals98vT/selector/css/JzXu8j3Qkdu",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/atgXk5OWlVS]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/42172560",
+        "type": "crm:E21_Person",
+        "label": "Houde, Camillien, 1889-1958",
+        "description": "Camillien Houde maire de Montréal, Québec, entre 1928 et 1954"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/y5zNeq8QADC"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/y5zNeq8QADC",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-06T00:04:23.629Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/wYFN6C8Rhkk",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/wYFN6C8Rhkk/selector/textPosition/aPx25MDrQOH",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 59,
+                "end": 69,
+                "refinedBy": {
+                    "id": "/target/wYFN6C8Rhkk/selector/textQuote/doky60N56yd",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "A.M. Klein",
+                    "prefix": "\n\t\t\n\t\t\t\n\t\t\t\tPolitical Meeting (For Camillien Houde)\n\t\t\t\tby",
+                    "suffix": "\t\t\t\t\n\t\t\t\t\tOn the school platform, draping the folding seats,they wait the chairman's praise and glass of water"
+                }
+            },
+            {
+                "id": "/target/wYFN6C8Rhkk/selector/css/UJaASzTmgdc",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/y5zNeq8QADC]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://vocab.getty.edu/ulan/500434002",
+        "type": "crm:E21_Person",
+        "label": "Weaver, A.M.",
+        "description": "score: 14.19843"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/czuGEqH9tRr"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/czuGEqH9tRr",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2025-07-06T00:04:40.706Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/YppXRJ8eLO4",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/YppXRJ8eLO4/selector/textPosition/vGqhlDSCvbZ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 260,
+                "end": 264,
+                "refinedBy": {
+                    "id": "/target/YppXRJ8eLO4/selector/textQuote/O4LU5NA62Nr",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "laic",
+                    "prefix": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tHere all are",
+                    "suffix": " the skirted brothers have gone"
+                }
+            },
+            {
+                "id": "/target/YppXRJ8eLO4/selector/css/mnCg2LL72Et",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/czuGEqH9tRr]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q726710",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "laic",
+        "description": "people unrelated to any religious confession"
+    },
+    "P2_has_type": [
+        "oa:tagging"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/BYicBO81BO2"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/BYicBO81BO2",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-06T00:04:36.749Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/ohs9QAAFJE5",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ohs9QAAFJE5/selector/textPosition/WBosr9NsNrp",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 647,
+                "end": 657,
+                "refinedBy": {
+                    "id": "/target/ohs9QAAFJE5/selector/textQuote/jEZq4L6q31J",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "alouette's",
+                    "prefix": "Fall the feathers of sound, like",
+                    "suffix": "The chairman, now, is charming, full of asides and wit,\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tbuilding his orators, and chipping offthe heckling gargoyles popping in the hall"
+                }
+            },
+            {
+                "id": "/target/ohs9QAAFJE5/selector/css/t4lrh2bWgfV",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/BYicBO81BO2]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://dbpedia.org/resource/Barack_Obama",
+        "type": "crm:E21_Person",
+        "label": "Barack Obama",
+        "description": "Barack Hussein Obama II ( (); born August 4, 1961) is an American attorney and politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Gz2TdwBlvMj"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Gz2TdwBlvMj",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2025-07-06T00:04:26.442Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/wrlbWy9Bdgo",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/wrlbWy9Bdgo/selector/textPosition/UBJlLWghRQp",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1678,
+                "end": 1686,
+                "refinedBy": {
+                    "id": "/target/wrlbWy9Bdgo/selector/textQuote/dmY7YDn7sZh",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Canadien",
+                    "prefix": "Calmly, therefore, he begins to speak of war,\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tpraises the virtue of being",
+                    "suffix": "of being at peace, of faith, of family,and suddenly his other voice: Where are your sons?\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tHe is tearful, choking tears; but not hewould blame the clever English; in their placehe'd do the same; maybe"
+                }
+            },
+            {
+                "id": "/target/wrlbWy9Bdgo/selector/css/D8nNppjStDr",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Gz2TdwBlvMj]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://dbpedia.org/resource/Montreal_Canadiens",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "Montreal Canadiens",
+        "description": "The Montreal Canadiens (French: Les Canadiens de Montréal) are a professional ice hockey team based in Montreal. They compete in the National Hockey League (NHL) as a member of the Atlantic Division of the Eastern Conference. The club's official name is le Club de hockey Canadien. The team is frequently referred to in English and French as the Habs. French nicknames for the team include Les Canadiens (or Le Canadien), Le Bleu-Blanc-Rouge, La Sainte-Flanelle, Le Tricolore, Les Glorieux (or Nos Glorieux), Le CH, Le Grand Club and Les Habitants (from which \"Habs\" is derived)."
+    },
+    "P2_has_type": [
+        "oa:tagging"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tTNfRsIAqyb"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/tTNfRsIAqyb",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2025-07-06T00:04:30.665Z",
+    "creator": {
+        "id": "https://github.com/nhervieu",
+        "type": "crm:E21_Person",
+        "name": "Natalie Hervieux"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/P31aXhq6FFU",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/nhervieu/nervetest/main/houde_poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/P31aXhq6FFU/selector/textPosition/EQFaXILLqvG",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1861,
+                "end": 1868,
+                "refinedBy": {
+                    "id": "/target/P31aXhq6FFU/selector/textQuote/b2dr5yKYfND",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "English",
+                    "prefix": "Calmly, therefore, he begins to speak of war,\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tpraises the virtue of being Canadien,of being at peace, of faith, of family,and suddenly his other voice: Where are your sons?\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tHe is tearful, choking tears; but not hewould blame the clever",
+                    "suffix": " in their placehe'd do the same; maybe"
+                }
+            },
+            {
+                "id": "/target/P31aXhq6FFU/selector/css/xFdVvdT9ck2",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tTNfRsIAqyb]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/176621117",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "Chekhov, Anton Pavlovich, 1860-1904. | Short stories. Selections. | English",
+        "description": "Chekhov, Anton Pavlovich, 1860-1904. | Short stories. | English. Selections"
+    },
+    "P2_has_type": [
+        "oa:tagging"
+    ]
+}]]></rdf:Description></rdf:RDF></xenoData></standOff></TEI>
